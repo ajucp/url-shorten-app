@@ -4,7 +4,7 @@ const mongoClient=mongodb.MongoClient;
 let _db;
 
 const mongoConnect=async(callback)=>mongoClient.connect(
-    'mongodb://localhost:27017/'
+    'mongodb+srv://ajucp:J6GQDsaCXT2uo2Ga@cluster0.98nsj.mongodb.net/url-shorten-app?retryWrites=true&w=majority'
      )
     .then(client=>{
         console.log("DATA_BASE IS CONNECTED");
