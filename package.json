@@ -1,0 +1,33 @@
+{
+  "name": "alert-office",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A scalable URL shortener with analytics, user authentication, and rate limiting.",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "geoip-lite": "^1.4.10",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "morgan": "^1.10.0",
+    "rate-limiter-flexible": "^5.0.4",
+    "redis": "^4.7.0",
+    "swagger-jsdoc": "^6.2.8",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
